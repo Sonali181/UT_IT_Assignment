@@ -19,7 +19,7 @@ class EmailValidator {
 object Main {
   def main(args: Array[String]): Unit = {
     val mail = new EmailValidator
-    println(mail.emailIdIsValid("rahulkhowal90@gmail.com"))
-    println(mail.checkMail("sakshimalik@gmail.com"))
+    println(mail.emailIdIsValid("sonalisah@gmail.com"))
+    println(mail.checkMail("ankitmalik@gmail.com"))
   }
 }

@@ -16,7 +16,7 @@ class EmployeeValidator {
 }
 
 object checkEmployee{
-  val emp2: Employee =  Employee("sakshi","Malik",22,5000,"Intern","knoldus","sakshi.malik@knoldus.com")
+  val emp2: Employee =  Employee("ankit","Malik",22,15000,"Intern","knoldus","ankit.malik@knoldus.com")
   val obj = new EmployeeValidator()
   println(obj.employeeIsValid(emp2))
 }
